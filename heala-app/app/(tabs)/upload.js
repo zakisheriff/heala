@@ -14,9 +14,6 @@ import {
 } from "react-native";
 
 export default function LabReportAnalyzerFast() {
-  // NOTE: REPLACE 'AIzaSyAJBgV6a7L8yEP1drIbpKhxiyessih3Sb8' with your actual API key
-  const GEMINI_API_KEY = "AIzaSyAJBgV6a7L8yEP1drIbpKhxiyessih3Sb8"; 
-  const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(false);

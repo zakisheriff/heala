@@ -12,8 +12,6 @@ import {
 } from "react-native";
 
 export default function HealthChatbot() {
-  const GEMINI_API_KEY = "AIzaSyAJBgV6a7L8yEP1drIbpKhxiyessih3Sb8";
-  const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
