@@ -87,27 +87,27 @@ heala provides a **mobile + cloud-based platform**:
 
 ## Project Structure
 
-heala/
-│
-├─ heala-app/ # React Native mobile app
-│ ├─ assets/ # Images, icons, fonts
-│ ├─ components/ # Reusable UI components
-│ ├─ screens/ # App screens
-│ ├─ navigation/ # App navigation (stack/tab)
-│ ├─ services/ # API & helper functions
-│ ├─ App.js # App entry point
-│ └─ package.json # App dependencies
-│
-├─ heala-backend/ # Node.js backend
-│ ├─ controllers/ # API route handlers
-│ ├─ models/ # Database models
-│ ├─ routes/ # API endpoints
-│ ├─ middleware/ # Auth, validation, etc.
-│ ├─ config/ # DB & server config
-│ ├─ server.js # Backend entry point
-│ └─ package.json # Backend dependencies
-│
-└─ README.md # Project documentation
+## Project Structure
+
+- heala/
+  - heala-app/                  # React Native mobile app
+    - assets/                   # Images, icons, fonts
+    - components/               # Reusable UI components
+    - screens/                  # App screens
+    - navigation/               # App navigation (stack/tab)
+    - services/                 # API & helper functions
+    - App.js                    # App entry point
+    - package.json              # App dependencies
+  - heala-backend/              # Node.js backend
+    - controllers/              # API route handlers
+    - models/                   # Database models
+    - routes/                   # API endpoints
+    - middleware/               # Auth, validation, etc.
+    - config/                   # DB & server config
+    - server.js                 # Backend entry point
+    - package.json              # Backend dependencies
+  - README.md                   # Project documentation
+
 
 ---
 
@@ -129,3 +129,13 @@ npm install
 npx expo start
 Scan the QR code with Expo Go or run on an emulator.
 ```
+
+## Contributing
+Fork the repository
+Create a branch: git checkout -b feature/YourFeature
+Make changes & commit: git commit -m "Add feature"
+Push branch: git push origin feature/YourFeature
+Open a Pull Request
+
+## License
+MIT License. See [![License: MIT](https://img.shields.io/badge/License-MIT-1abc9c.svg?style=for-the-badge)](./LICENSE)
