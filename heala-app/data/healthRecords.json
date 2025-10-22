@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "type": "Prescription",
+    "disease": "Cold & Flu",
+    "date": "Oct 5, 2025",
+    "medicines": [
+      {
+        "name": "Amoxicillin 500mg",
+        "details": "Take twice daily after meals for 7 days. Complete the full course even if symptoms improve."
+      },
+      {
+        "name": "Cough Syrup",
+        "details": "Take 5ml three times daily after meals."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Lab Report",
+    "date": "Oct 1, 2025",
+    "title": "Complete Blood Count",
+    "provider": "City Medical Lab",
+    "details": "Hemoglobin: 14.2 g/dL (Normal)\nWBC Count: 11,500/μL (Slightly High)\nPlatelets: 250,000/μL (Normal)"
+  },
+  {
+    "id": 3,
+    "type": "Prescription",
+    "disease": "Headache & Fever",
+    "date": "Sep 28, 2025",
+    "medicines": [
+      {
+        "name": "Paracetamol 500mg",
+        "details": "Take as needed for fever or pain. Maximum 3 times daily."
+      },
+      {
+        "name": "Ibuprofen 200mg",
+        "details": "Take one tablet after food, twice daily."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Lab Report",
+    "date": "Sep 25, 2025",
+    "title": "Blood Sugar Test",
+    "provider": "Health Plus Diagnostics",
+    "details": "Fasting Blood Sugar: 110 mg/dL (Slightly High)\nHbA1c: 5.6% (Normal)\nRecommendation: Follow up in 3 months."
+  },
+  {
+    "id": 5,
+    "type": "Prescription",
+    "disease": "Gastritis",
+    "date": "Sep 20, 2025",
+    "medicines": [
+      {
+        "name": "Omeprazole 20mg",
+        "details": "Take once daily before breakfast for 14 days."
+      },
+      {
+        "name": "Antacid Syrup",
+        "details": "Take 10ml when needed for stomach discomfort."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Lab Report",
+    "date": "Sep 12, 2025",
+    "title": "Liver Function Test",
+    "provider": "Metro Diagnostics",
+    "details": "ALT: 45 U/L (Normal)\nAST: 50 U/L (Slightly High)\nBilirubin: 0.9 mg/dL (Normal)"
+  },
+  {
+    "id": 7,
+    "type": "Prescription",
+    "disease": "Allergic Rhinitis",
+    "date": "Aug 30, 2025",
+    "medicines": [
+      {
+        "name": "Cetirizine 10mg",
+        "details": "Take one tablet at night before bed."
+      },
+      {
+        "name": "Nasal Spray",
+        "details": "Use one spray per nostril twice daily."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "Lab Report",
+    "date": "Aug 25, 2025",
+    "title": "Thyroid Function Test",
+    "provider": "LifeCare Lab",
+    "details": "TSH: 3.1 µIU/mL (Normal)\nT3: 1.4 ng/mL (Normal)\nT4: 8.7 µg/dL (Normal)"
+  },
+  {
+    "id": 9,
+    "type": "Prescription",
+    "disease": "Skin Infection",
+    "date": "Aug 10, 2025",
+    "medicines": [
+      {
+        "name": "Clotrimazole Cream",
+        "details": "Apply twice daily to affected area for 10 days."
+      },
+      {
+        "name": "Cefixime 200mg",
+        "details": "Take one tablet twice daily for 7 days."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "Lab Report",
+    "date": "Aug 1, 2025",
+    "title": "Urine Routine Examination",
+    "provider": "Prime Diagnostics",
+    "details": "Color: Yellow\npH: 6.0\nProtein: Negative\nGlucose: Negative\nMicroscopy: Normal"
+  }
+]
