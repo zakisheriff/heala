@@ -1,4 +1,4 @@
-# heala – AI-Powered Personal Health Record Platform
+# heala
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-1abc9c.svg?style=for-the-badge)](./LICENSE)
 [![React Native](https://img.shields.io/badge/React_Native-0.71-3498db.svg?style=for-the-badge)](https://reactnative.dev/)
@@ -118,19 +118,24 @@ heala provides a **mobile + cloud-based platform**:
 cd heala-backend
 npm install
 npm start
-
-Server runs at http://localhost:5000 (or your configured port)
 ```
 
+Server runs at http://localhost:5000 (or your configured port)
+
+
 ### React Native App
+
 ```bash
 cd heala-app
 npm install
 npx expo start
-Scan the QR code with Expo Go or run on an emulator.
 ```
 
+Scan the QR code with Expo Go or run on an emulator.
+
+
 ## Contributing
+
 Fork the repository
 Create a branch: git checkout -b feature/YourFeature
 Make changes & commit: git commit -m "Add feature"
@@ -138,4 +143,6 @@ Push branch: git push origin feature/YourFeature
 Open a Pull Request
 
 ## License
-MIT License. See [![License: MIT](https://img.shields.io/badge/License-MIT-1abc9c.svg?style=for-the-badge)](./LICENSE)
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
+
