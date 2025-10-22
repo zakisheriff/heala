@@ -33,7 +33,7 @@ The platform digitizes prescriptions, analyzes medicines, summarizes lab reports
 
 ## Solution
 
-heala provides a **mobile + web + cloud-based platform**:
+heala Provides a **Mobile + Web + Cloud-Based Platform**:
 
 ### 1. Prescription Digitization & Analysis
 - Upload handwritten prescriptions via mobile app.  
@@ -85,10 +85,8 @@ heala provides a **mobile + web + cloud-based platform**:
   - heala-app/                  # React Native mobile app
     - assets/                   # Images, icons, fonts
     - components/               # Reusable UI components
-    - screens/                  # App screens
-    - navigation/               # App navigation (stack/tab)
+    - app/                      # App files
     - services/                 # API & helper functions
-    - App.js                    # App entry point
     - package.json              # App dependencies
   - heala-web/                  # Web dashboard for doctors/pharma
     - public/                   # Static assets
