@@ -78,4 +78,34 @@ Heala provides a **mobile + cloud-based platform** that:
 ---
 
 ## 📂 Project Structure
+heala/
+├─ heala-app/ # React Native mobile app
+│ ├─ components/ # Reusable UI components
+│ ├─ screens/ # App screens
+│ ├─ assets/ # Images, icons, fonts
+│ └─ App.js # App entry point
+├─ heala-backend/ # Node.js backend
+│ ├─ controllers/ # API route handlers
+│ ├─ models/ # Database models
+│ ├─ routes/ # API routes
+│ └─ server.js # Backend entry point
+└─ README.md # Project documentation
 
+---
+
+## 🚀 Installation
+
+### Backend
+```bash
+cd heala-backend
+npm install
+npm start
+
+Server runs at http://localhost:5000 (or your configured port)
+
+
+**React Native App**
+cd heala-app
+npm install
+npx expo start
+Scan the QR code with Expo Go or run on an emulator.
