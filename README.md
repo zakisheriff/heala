@@ -3,89 +3,81 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-1abc9c.svg?style=for-the-badge)](./LICENSE)
 [![React Native](https://img.shields.io/badge/React_Native-0.71-3498db.svg?style=for-the-badge)](https://reactnative.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18-27ae60.svg?style=for-the-badge)](https://nodejs.org/)
-[![Expo](https://img.shields.io/badge/Expo-Managed-e67e22.svg?style=for-the-badge)](https://expo.dev/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-316192.svg?style=for-the-badge)](https://www.postgresql.org/)
+[![Azure](https://img.shields.io/badge/Azure-Cloud-0078d4.svg?style=for-the-badge)](https://azure.microsoft.com/)
 
 ---
 
 ## Project Overview
 
-**heala** is an AI-powered personal health record platform for Sri Lanka and similar developing countries.  
-It digitizes handwritten prescriptions, analyzes medicines, summarizes lab reports, and provides actionable health insights for users while offering analytics to governments, pharma companies, and medical equipment providers.
+**heala** is an AI-powered personal health record platform designed for Sri Lanka and similar developing countries.  
+It provides:
+
+- **React Native mobile app** for patients  
+- **Web dashboard** for doctors, hospitals, and pharmaceutical companies  
+- **Node.js backend** with **PostgreSQL** database  
+- **Azure cloud integration** for secure, scalable storage  
+
+The platform digitizes prescriptions, analyzes medicines, summarizes lab reports, and provides actionable health insights for patients while offering analytics to healthcare stakeholders.
 
 ---
 
 ## Problem Statement
 
-- Handwritten prescriptions make patient health data **hard to track digitally**.  
+- Handwritten prescriptions are **difficult to track digitally**.  
 - Patients lack **unified digital health records** across hospitals, clinics, and labs.  
-- Stakeholders (government, pharma, medical equipment providers) lack **real-time insights** on diseases, medicine usage, and healthcare trends.  
-- Patients struggle to track **past illnesses, test results, and prescribed medicines**, and **cannot easily understand lab reports** due to complex medical jargon.
+- Lab reports are **full of medical jargon**, making it hard for patients to understand their results.  
+- Governments, pharma, and equipment providers lack **real-time insights** on disease trends and medicine usage.
 
 ---
 
 ## Solution
 
-heala provides a **mobile + cloud-based platform**:
+heala provides a **mobile + web + cloud-based platform**:
 
 ### 1. Prescription Digitization & Analysis
-- Upload photos of handwritten prescriptions.  
-- AI/ML (OCR + NLP trained on local handwriting) converts them into structured data: medicine name, dosage, duration, diagnosis.  
-- AI provides **detailed insights**:
-  - Purpose of each medicine  
-  - Timing and proper usage  
-  - Precautions and interactions  
-- Data validated against a **local drug database**.
+- Upload handwritten prescriptions via mobile app.  
+- AI/ML (OCR + NLP) converts them into structured data: medicine name, dosage, duration, diagnosis.  
+- AI analyzes **medicine purpose, timing, usage, and precautions**.  
+- Validates against a **local drug database**.
 
 ### 2. Lab Report Summarization & Guidance
-- Upload lab reports (PDF or photo).  
-- AI extracts results and **summarizes findings in simple language**.  
-- Provides user-friendly guidance:
-  - Key points to monitor  
+- Upload lab reports (PDF or image).  
+- AI extracts results, **summarizes findings in simple language**.  
+- Provides actionable guidance:
   - Dos and don’ts  
-  - Recommended diet and lifestyle changes  
+  - Diet and lifestyle recommendations  
+  - Alerts on critical values
 
 ### 3. Patient Health Record
-- Builds a **longitudinal health history**:
+- Builds **longitudinal health history**:
   - Past illnesses & diagnoses  
   - Medicines consumed (brand + generic)  
-  - Lab tests and reports with summaries  
-- Records are **accessible anytime**, even if patients change doctors or hospitals.
+  - Lab tests & summarized reports  
+- Accessible anytime, even if patients change doctors or hospitals.
 
-### 4. Analytics for Stakeholders
-- **Government:** track outbreaks, medicine shortages, health trends.  
-- **Pharma companies:** demand insights, prescription patterns, brand vs generic usage.  
-- **Medical equipment providers:** monitor high-demand diagnostics/tests.
+### 4. Web Dashboard for Stakeholders
+- **Doctors:** view patient history, prescribe digitally, monitor trends  
+- **Pharma Companies:** understand prescription patterns, drug demand, and market insights  
+- **Hospitals & Labs:** monitor test trends and patient outcomes
 
----
-
-## Phased Approach
-
-1. **Phase 1:** Prescription digitization, medicine tracking, and analysis  
-2. **Phase 2:** Lab report ingestion with AI extraction and summarization  
-3. **Phase 3:** API integration with hospitals, clinics, and labs  
-4. **Phase 4:** Predictive insights for early detection of chronic conditions
+### 5. Analytics for Stakeholders
+- **Government:** outbreak monitoring, medicine shortages, health trends  
+- **Pharma & Medical Equipment Providers:** demand insights, prescription patterns, high-demand diagnostics/tests
 
 ---
 
 ## Technology Stack
 
-- **Frontend:** React Native (mobile app), Web Portal for stakeholders  
-- **Backend:** Node.js + Express.js, secure cloud storage  
-- **AI/ML:** OCR + NLP trained on local handwriting & medicine names; lab report summarization models  
-- **Integration:** Standardized and secure RESTful APIs to enable data exchange between hospitals, clinics, labs, and the heala platform
-- **Security:** Encrypted storage, HIPAA-like compliance
+- **Mobile App:** React Native (cross-platform for iOS & Android)  
+- **Web Dashboard:** React.js / Next.js for doctors & pharma companies  
+- **Backend:** Node.js + Express.js  
+- **Database:** PostgreSQL (relational, secure, scalable)  
+- **Cloud:** Azure (data storage, authentication, deployment)  
+- **AI/ML:** OCR + NLP for prescriptions, lab report summarization models  
+- **Security:** Encrypted data storage, HIPAA-like compliance  
 
 ---
-
-## Revenue Streams
-
-**B2B**: Hospitals/clinics, pharma companies, insurance providers  
-**B2C**: Premium app features, subscription for unlimited storage  
-**Government/Public Health**: National health database contribution, outbreak dashboards
-
----
-
-## Project Structure
 
 ## Project Structure
 
@@ -98,6 +90,11 @@ heala provides a **mobile + cloud-based platform**:
     - services/                 # API & helper functions
     - App.js                    # App entry point
     - package.json              # App dependencies
+  - heala-web/                  # Web dashboard for doctors/pharma
+    - public/                   # Static assets
+    - src/                      # Components, pages, utilities
+    - App.js                    # Web app entry point
+    - package.json              # Web dependencies
   - heala-backend/              # Node.js backend
     - controllers/              # API route handlers
     - models/                   # Database models
@@ -107,7 +104,7 @@ heala provides a **mobile + cloud-based platform**:
     - server.js                 # Backend entry point
     - package.json              # Backend dependencies
   - README.md                   # Project documentation
-
+  - LICENSE                     # MIT License
 
 ---
 
