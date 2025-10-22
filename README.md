@@ -13,10 +13,10 @@
 **heala** is an AI-powered personal health record platform designed for Sri Lanka and similar developing countries.  
 It provides:
 
-- **React Native mobile app** for patients  
-- **Web dashboard** for doctors, hospitals, and pharmaceutical companies  
-- **Node.js backend** with **PostgreSQL** database  
-- **Azure cloud integration** for secure, scalable storage  
+- **React Native Mobile App** for patients  
+- **Web Dashboard** for doctors, hospitals, and pharmaceutical companies  
+- **Node.js Backend** with **PostgreSQL** database  
+- **Azure Cloud Integration** for secure, scalable storage  
 
 The platform digitizes prescriptions, analyzes medicines, summarizes lab reports, and provides actionable health insights for patients while offering analytics to healthcare stakeholders.
 
