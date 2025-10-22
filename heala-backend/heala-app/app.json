@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "heala",
+    "slug": "heala",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/heala-logo-app.png",
+    "scheme": "myglassapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zakisheriff.myglassapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/heala-logo-app.png",
+        "backgroundImage": "./assets/images/heala-logo-app.png",
+        "monochromeImage": "./assets/images/heala-logo-app.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.zakisheriff.myglassapp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-web-browser",
+      "expo-font",
+      "expo-video",
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "API_KEY": "AIzaSyAJBgV6a7L8yEP1drIbpKhxiyessih3Sb8",
+      "eas": {
+        "projectId": "9783348f-81a1-47bf-a3c6-b3a7f1369a4e"
+      }
+    }
+  }
+}
